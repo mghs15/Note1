@@ -8,11 +8,19 @@
 File > Options > Git > e-mail　でEmailをGitHubがくれるやつ（usename.@users.noreply.github.com）に変更する。
 
 <hr>
-<bold>GitHubでStashしたい。</bold>
+<bold>GitHubでStash（退避）したい。</bold>
 
 Repository > Open in Command Promptで以下のコマンドを打てばよい。
 ```console
 git stash
+```
+退避のリストは以下のコマンドから見られる。
+```console
+git stash show
+```
+削除するには、
+```console
+git stash drop
 ```
 <hr>
 
