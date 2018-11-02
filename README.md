@@ -4,7 +4,7 @@
 ## Github Desktopについて
 <bold>Commit時に、"Cannot push these commits as they contain an email address marked as private on GitHub."とエラーが出る。</bold>
 
-設定時のE-mailアドレスが、プライベートなものをしている（そして、プライベートアドレスを利用したCommitをGitHubで禁止する設定にしている。）
+設定時のE-mailアドレスが、プライベートなものを設定している（そして、プライベートアドレスを利用したCommitをGitHubで禁止する設定にしている。）
 File > Options > Git > e-mail　でEmailをGitHubがくれるやつ（usename.@users.noreply.github.com）に変更する。
 
 <hr>
