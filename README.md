@@ -10,11 +10,10 @@ File > Options > Git > e-mail　でEmailをGitHubがくれるやつ（usename.@u
 <hr>
 <bold>GitHubでStashしたい。</bold>
 
-Repository > Open in Command Promptで　
+Repository > Open in Command Promptで以下のコマンドを打てばよい。
 ```console
 git stash
 ```
-と打てばよい。
 <hr>
 
 
