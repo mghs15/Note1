@@ -1,5 +1,5 @@
 # Note1
-忘備録ってやつです。The note for me for avoiding to forget all.
+忘備録ってやつです。The note for me not to forget all.
 
 ## Github Desktopについて
 <bold>Commit時に、"Cannot push these commits as they contain an email address marked as private on GitHub."とエラーが出る。</bold>
