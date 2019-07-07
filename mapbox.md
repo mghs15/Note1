@@ -46,6 +46,17 @@ https://labs.mapbox.com/maki-icons/editor/
 
 Share > download から、style.jsonをダウンロードできる。
 
+
+## Mapbox Studio上でのデータ編集
+
+以下で可能
+https://studio.mapbox.com/datasets/
+
+背景に、OSMのほか、航空写真も選べる。（たぶん、自分で作ったスタイルも設定可能。）
+
+トレースした場合の著作権はどうなるのだろうか？
+
+
 <hr>
 
 今後気づいた点を追加予定
