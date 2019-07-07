@@ -27,7 +27,7 @@ https://studio.mapbox.com/styles/
 
 Mapbox GL JSでは、注記・アイコンの衝突回避を自動で行っている。衝突範囲は指定できるので、このモードを見ながら微調整することになるだろう。
 
-<hr>
+
 
 ### Images
 
@@ -40,7 +40,7 @@ https://labs.mapbox.com/maki-icons/editor/
 修正できる項目は、色、縁取り、背景色のみ。他に、名前やグループ名などの設定変更も可。
 ちなみに、Mapbox Studioに登録できるSVGは、500までらしい。
 
-<hr>
+
 
 ### Share
 
