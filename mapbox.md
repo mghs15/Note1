@@ -49,7 +49,7 @@ Share > download から、style.jsonをダウンロードできる。
 
 ## Mapbox Studio上でのデータ編集
 
-以下で可能
+以下で可能。インポートしたデータの編集以外にも、イチから作ることもできる。
 https://studio.mapbox.com/datasets/
 
 背景に、OSMのほか、航空写真も選べる。（たぶん、自分で作ったスタイルも設定可能。）
