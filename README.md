@@ -3,4 +3,13 @@
 
 それぞれのテーマごとにmdファイルを作っています。
 
+# メモ一覧
 
+## GitHubのサービス(GitHub Desktop等)に関するメモ
+```github.md```
+
+## Mapboxのサービス(Mapbox Studio等)に関するメモ
+```mapbox.md```
+
+## 統計学に関するメモ
+```statistics.md```
