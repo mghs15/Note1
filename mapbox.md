@@ -34,6 +34,7 @@ Mapbox GL JSでは、注記・アイコンの衝突回避を自動で行って�
 SVGファイル（.svg）をアップロードできるらしい。
 
 SVGファイルは"Maki Icon editor"で編集できる。
+
 https://labs.mapbox.com/maki-icons/editor/
 
 このMaki Icon editorでSVGファイルを編集・出力し、AVGファイルをMapbox Studioにアップロードすればよい。
@@ -50,6 +51,7 @@ Share > download から、style.jsonをダウンロードできる。
 ## Mapbox Studio上でのデータ編集
 
 以下で可能。インポートしたデータの編集以外にも、イチから作ることもできる。
+
 https://studio.mapbox.com/datasets/
 
 背景に、OSMのほか、航空写真も選べる。（たぶん、自分で作ったスタイルも設定可能。）
