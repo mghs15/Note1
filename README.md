@@ -13,3 +13,7 @@
 
 ### 統計学に関するメモ
 ```statistics.md```
+
+### QGISでMapbox Vector Tile（pbfファイル）を読み込むメモ
+```qgis-pbf.md```
+
