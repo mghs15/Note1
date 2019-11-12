@@ -27,7 +27,7 @@ QGISでは、プラグイン > プラグインの管理とインストール で
 
 ### TileJSONの準備
 Vector Tiles Readerでは、TileJSONというファイルが必要らしいので、これを作成する。
-仕様は[こちらの通り](https://github.com/mapbox/tilejson-spec)だが、Mapbox Vector Tileの場合、仕様には書かれていない`vector_layers`の設定が必要らしい（書かれていないなんてことはないだろうから、見落としだと思う）。`vector_layers`の中は、何を書けばよいのかわからなかったが、試行錯誤の上、`id`に、ベクトルタイルの`source-layer`を書けばうまくいきそうだとわかった。
+仕様は[こちらの通り](https://github.com/mapbox/tilejson-spec)だが、Mapbox Vector Tileの場合、[`vector_layers`](https://github.com/mapbox/tilejson-spec/issues/14)の設定が必要らしい。`vector_layers`の中は、何を書けばよいのかわからなかったが、試行錯誤の上、`id`に、ベクトルタイルの`source-layer`を書けばうまくいきそうだとわかった。
 
 
 地理院地図Vector（仮称）提供実験のベクトルタイルに含まれる`source-layer`は、[地物コード及び表示ズームレベル一覧](https://maps.gsi.go.jp/help/pdf/vector/dataspec.pdf)にある通り。
