@@ -82,16 +82,12 @@ Vector Tiles Readerをインストールしてあれば、以下の手順で、�
 
 これで、新しいウィンドウが開くので、Serverのタブを選択する。
 
-![](image/pbf-qgis-1.png)
-
-Vector Tiles Readerの設定画面。画像はすべて設定し終わって、あとはAddボタンを押すだけのところ
+![](image/pbf-qgis-1.png "Vector Tiles Readerの設定画面。画像はすべて設定し終わって、あとはAddボタンを押すだけのところ")
 
 
 Connectionsというところで、Newというボタンを押すと、Create Connectionというウィンドウが出てくる。ここに、Connectionの名前（適当でよい）、TileJSON URLに先ほど作ったTileJSONのURLを入れる（別にWebサーバでホストしていなくても、ローカル環境のファイルパスを入れれば問題ないみたいです）。GL Style JSON URLは空白でも大丈夫（ここについては後述）。Saveボタンで保存。
 
-![](image/pbf-qgis-2.png)
-
-Create Connectionウィンドウの設定例
+![](image/pbf-qgis-2.png "Create Connectionウィンドウの設定例")
 
 
 次に、Connectボタンを押すと、TileJSONがうまく読まれていれば、真ん中の部分にTileJSONの`id`で設定したレイヤが表示される。これを全選択する。
@@ -102,9 +98,7 @@ Create Connectionウィンドウの設定例
 
 これで、右下のAddボタンを押すと、ベクトルタイルが読み込まれ、QGIS本体に表示される。QGISで扱う普通のレイヤと同じような感覚で、「レイヤ」パネルのプロパティやスタイルで調整が可能。
 
-![](image/pbf-qgis-3.png)
-
-地理院地図Vector（仮称）提供実験のベクトルタイルを読み込んだところ
+![](image/pbf-qgis-3.png "地理院地図Vector（仮称）提供実験のベクトルタイルを読み込んだところ")
 
 
 ## MapboxのStyle JSONを適用する
@@ -119,14 +113,10 @@ Create Connectionウィンドウの設定例
 * StyleJSONで行っているズームレベルごとの設定が本当に反映できているのか疑問。未検証であるが、もしこの仮説が正しいのであれば、TileJSONで細かい調整を行うことが必要かもしれない。
 
 
-![](image/pbf-qgis-4.png)
+![](image/pbf-qgis-4.png "StyleJSONのSprite設定がQGIS上の表示では反映されず、アイコンは「?」となってしまう。")
 
-StyleJSONのSprite設定がQGIS上の表示では反映されず、アイコンは「?」となってしまう。
+![](image/pbf-qgis-5.png "道路の枠線がうまく表示できず、道路が2重に表示されてしまう")
 
-
-![](image/pbf-qgis-5.png)
-
-路の枠線がうまく表示できず、道路が2重に表示されてしまう
 
 
 ### 躓いたところ
