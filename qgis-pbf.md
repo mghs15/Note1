@@ -87,7 +87,9 @@ Vector Tiles Readerをインストールしてあれば、以下の手順で、�
 
 Connectionsというところで、Newというボタンを押すと、Create Connectionというウィンドウが出てくる。ここに、Connectionの名前（適当でよい）、TileJSON URLに先ほど作ったTileJSONのURLを入れる（別にWebサーバでホストしていなくても、ローカル環境のファイルパスを入れれば問題ないみたいです）。GL Style JSON URLは空白でも大丈夫（ここについては後述）。Saveボタンで保存。
 
-![](image/pbf-qgis-2.png "Create Connectionウィンドウの設定例")
+もし、修正する場合は、Editボタンから、Edit Connectionウィンドウを開いて修正すればよい。操作方法は全く同じ。
+
+![](image/pbf-qgis-2.png "Edit Connectionウィンドウの設定例")
 
 
 次に、Connectボタンを押すと、TileJSONがうまく読まれていれば、真ん中の部分にTileJSONの`id`で設定したレイヤが表示される。これを全選択する。
