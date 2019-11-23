@@ -58,6 +58,15 @@ https://studio.mapbox.com/datasets/
 
 トレースした場合の著作権はどうなるのだろうか？
 
+## Mapbox GL JSの面白そうな機能
+* 注記・記号の衝突範囲とその挙動の確認ができる。
+
+https://docs.mapbox.com/mapbox-gl-js/api/#map#showcollisionboxes
+
+* メルカトル図法のスケールファクターを設定できる。
+
+https://docs.mapbox.com/mapbox-gl-js/api/#mercatorscale
+
 
 <hr>
 
