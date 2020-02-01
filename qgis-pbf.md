@@ -7,10 +7,10 @@ QGISで[Mapbox Vector Tile](https://github.com/mapbox/vector-tile-spec)のベク
 
 
 ベクトルタイルのURLはこれ
-`https://cyberjapandata.gsi.go.jp/xyz/{t}/{z}/{x}/{y}.{ext}`
+`https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/{z}/{x}/{y}.pbf`
 
 
-### 参考
+### 参考文献
 http://tmizu23.hatenablog.com/entry/20171209/1512787590
 
 
