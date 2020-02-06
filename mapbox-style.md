@@ -2,6 +2,17 @@
 
 [Mapbox Style Specification](https://docs.mapbox.com/mapbox-gl-js/style-spec/)に準拠して、地図デザインを行う際のTips、躓いた点、やりたいことなどのメモ
 
+## スタイル表示速度について
+Mapboxのトラブルシューティングのページを見ていると、大きなサイズのデータ表示を早くする方法が提供されている。
+* https://docs.mapbox.com/help/troubleshooting/mapbox-gl-js-performance/
+* https://docs.mapbox.com/help/troubleshooting/working-with-large-geojson-data/
+
+その中から、style.jsonの記述に関するものをまとめてみた。
+* 条件分岐は、specificなもの（絞り込みの大きいもの）から記述する。2つ目以降の条件にかける地物数が減るから。
+* styleのレイヤを分けるよりも、data-drivenを選択したほうが良い。
+* そもそも属性を持っていない場合、エラーが出て遅くなるので`"has"`によるチェックを入れた方が良い。
+* `icon-allow-overlap`をFALSEにした方が、描画が速い。
+
 ## 縦書き
 text-writing-modeを利用すると、縦書きに対応できる。
 * text-letter-spacingは縦書きにも効く。
@@ -41,5 +52,9 @@ text-writing-modeを利用すると、縦書きに対応できる。
 
 ## フォントについて
 * "text-font"（layout property）の設定を行わないと、フォントファイルの読み込みがうまくいかないようである。
+
+## 文字列の抽出
+* Mapbox GL JS v1.6.0から、`"in"`を使うことで、文字列の中に特定の文字列があるかどうか判別できるようになった。
+* [Mapbox Style Specification](https://docs.mapbox.com/mapbox-gl-js/style-spec/expressions/#in)に記載された`needle`と`haystack`は、「乾草の中の針」という英語のフレーズからのようだ。
 
 
