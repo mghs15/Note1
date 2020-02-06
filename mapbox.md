@@ -7,6 +7,12 @@ Mapbox用の忘備録です。
 Mapbox Studio
 https://studio.mapbox.com/styles/
 
+### Component機能
+スタイルレイヤごとの編集だけでなく、グループごとに編集することができるらしい。
+以下のQiitaの紹介記事を見る限り、Mapbox Style Specのmetadata属性（描画には直接関係しない属性）を活用しているようだ。
+
+https://qiita.com/moritoru/items/78aeb5491a4b2627fa9d
+
 ### Setting
 
 - 衛星写真の表示
@@ -59,11 +65,10 @@ https://studio.mapbox.com/datasets/
 トレースした場合の著作権はどうなるのだろうか？
 
 ## Mapbox GL JSの面白そうな機能
-* 注記・記号の衝突範囲とその挙動の確認ができる。
+* 注記・記号の衝突範囲とその挙動の確認ができる。<br>
 https://docs.mapbox.com/mapbox-gl-js/api/#map#showcollisionboxes
-* メルカトル図法のスケールファクターを設定できる。
+* メルカトル図法のスケールファクターを設定できる。<br>
 https://docs.mapbox.com/mapbox-gl-js/api/#mercatorscale
-
 
 <hr>
 
