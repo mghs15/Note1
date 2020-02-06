@@ -6,10 +6,10 @@
 ## メモ一覧
 
 ### Mapboxのスタイルに関するメモ
-[`tippecanoe.md`](https://github.com/mghs15/Note1/blob/master/tippecanoe.md)
+[`mapbox-style.md`](https://github.com/mghs15/Note1/blob/master/mapbox-style.md)
 
 ### Tippecanoe（Mapbox Vector Tile作成用ソフトウェア）に関するメモ
-[`mapbox-style.md`](https://github.com/mghs15/Note1/blob/master/mapbox-style.md)
+[`tippecanoe.md`](https://github.com/mghs15/Note1/blob/master/tippecanoe.md)
 
 ### QGISでMapbox Vector Tile（pbfファイル）を読み込むメモ
 [`qgis-pbf.md`](https://github.com/mghs15/Note1/blob/master/qgis-pbf.md)
