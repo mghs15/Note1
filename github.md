@@ -19,4 +19,10 @@ git stash show
 ```console
 git stash drop
 ```
+## gh-pagesのbuildエラー
+
+`.nojekyll`ファイル（中身は空でよい）をgh-pagesのルートにおいてあげると解決するみたい。
+
+https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/
+
 <hr>
