@@ -8,7 +8,7 @@ https://docs.microsoft.com/ja-jp/windows/wsl/install-win10#step-6---install-your
 
 その後、拡張子をAPPXからZIPに変更する。
 
-展開し、中のEXEを実行する。
+ZIPを展開し、中のEXEを実行する。
 
 
 ## デフォルトユーザ
