@@ -57,10 +57,12 @@ wsl.exe --shutdown
 
 ## Tippecanoe
 基本は、[TippecanoeのREADME](https://github.com/mapbox/tippecanoe)に従う。
+GitHubからzipを落として解凍。
+その後、そのディレクトリ内のmakefileがある場所（root?）へ移動。
 ```
 sudo apt-get install build-essential libsqlite3-dev zlib1g-dev
 ```
-（以下の4行不要かも。最初にg++のバージョン確認）
+（以下の4行不要かも。最初にg++のバージョン確認 `g++ --version` ）
 ```
 sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
 sudo apt-get update -y
