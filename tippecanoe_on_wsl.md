@@ -32,7 +32,7 @@ usermod -G sudo 設定変更するユーザ名
 
 ### WSL起動時のデフォルトユーザの変更
 ```
-.\ubuntu2004.exe config --default-user root
+.\ubuntu2004.exe config --default-user デフォルトにしたいユーザ
 ```
 または/etc/wsl.confに以下の記入をする。
 ```
