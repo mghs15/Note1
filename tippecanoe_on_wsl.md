@@ -1,10 +1,11 @@
 # TippecanoeをWSL上に作る
-WSLに入れた時の手順メモ
+WSLにtippecanoeを入れた時の手順メモ
+
 
 ## WSLの導入
 
 以下のページから目的のディストリビューションのAPPXを落とす。
-https://docs.microsoft.com/ja-jp/windows/wsl/install-win10#step-6---install-your-linux-distribution-of-choice
+> https://docs.microsoft.com/ja-jp/windows/wsl/install-win10#step-6---install-your-linux-distribution-of-choice
 
 その後、拡張子をAPPXからZIPに変更する。
 
@@ -25,6 +26,7 @@ sudo adduser 新しいユーザー名
 wsl -u root
 usermod -G sudo 設定変更するユーザ名
 ```
+> https://pointsandlines.jp/server-infra/linux-no-root-login
 
 ### WSL起動時のデフォルトユーザの変更
 ```
@@ -73,14 +75,12 @@ make install
 sudo apt install nodejs
 nodejs -v
 ```
-
 （エラー対応。Windows側のnpmを見てしまうみたい。）
 ```
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 sudo apt install npm
 ```
 > https://github.com/microsoft/WSL/issues/3882
-
 ```
 sudo npm install n -g
 sudo n stable
