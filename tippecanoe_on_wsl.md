@@ -7,10 +7,12 @@ WSLにtippecanoeを入れた時の手順メモ
 以下のページから目的のディストリビューションのAPPXを落とす。
 > https://docs.microsoft.com/ja-jp/windows/wsl/install-win10#step-6---install-your-linux-distribution-of-choice
 
-その後、拡張子をAPPXからZIPに変更する。
+その後、拡張子を.appxから.zipに変更する。
 
-ZIPを展開し、中のEXEを実行する。
+zipを展開し、中のexeを実行する。
 
+(こちらも参考に)
+> https://docs.microsoft.com/ja-jp/windows/wsl/install-manual
 
 ## デフォルトユーザ
 
