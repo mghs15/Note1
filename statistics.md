@@ -23,8 +23,9 @@
 
 ### Tidy data
 ```
-       |name_1 |name_2 | ... |name_n |
-cell_id|value_1|value_2| ... |value_n|
+|         | name_1  | name_2  | ... | name_n  |
+| ------- | ------  | ------  | --- | ------  |       
+| cell_id | value_1 | value_2 | ... | value_n |
 ```
 
 引用：
